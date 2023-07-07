@@ -26,3 +26,8 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+
+  - package-ecosystem: maven
+    directory: /licensed/docflex-doclet/maven
+    schedule:
+      interval: daily
